@@ -1,0 +1,19 @@
+Area de um circulo 
+Linguagem C 
+
+#include <stdio.h>
+
+int main() {
+const double n = 3.14159;
+    
+double raio;
+    
+    printf("Escreva o valor do raio: \n");
+    scanf("%lf", &raio);
+
+double area = n * (raio * raio);
+    
+    printf("o valor da area = ");
+    printf("%.4lf\n", area);
+
+}
