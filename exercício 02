@@ -1,0 +1,28 @@
+Calculadora 
+Linguagem C 
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+main (){
+	int A, B, soma, subtr, mult, divis;
+	
+printf("digite o primeiro numero: \n");
+    scanf("%d", &A);
+printf("digite o segundo numero: \n");
+	scanf("%d", &B);
+	
+	soma= A + B;
+	subtr= A - B;
+	mult= A * B;
+	divis= A / B;
+	
+printf("resultados:\n");
+printf("resultado da soma: %d. \n", soma);
+printf("resultado da subtração: %d. \n", subtr);
+printf("resultado da multiplicação: %d. \n", mult);
+printf("resultado da divisão: %4d. \n", divis);
+	
+	
+}
