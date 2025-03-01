@@ -1,0 +1,19 @@
+Salário com Bônus
+#include <iostream>
+
+int main()
+{
+    char nome[50];
+    double salario, vendasd, Total;
+    
+    printf("Primeiro nome do vendedor\n");
+    scanf("%s", nome);
+    
+    scanf("%lf", &salario);
+    scanf("%lf", &vendasd);
+    
+    Total = (vendasd * 0.15) + salario;
+    
+    printf("TOTAL = R$ %.2lf\n", Total);
+    
+}
