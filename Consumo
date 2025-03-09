@@ -1,0 +1,17 @@
+Consumo
+#include <stdio.h>
+
+int main()
+{
+	int distancia;
+	float combustível, km ;
+	scanf("%d", &distancia);
+	
+	scanf("%f.1", &combustível);
+	
+	km = distancia / combustível ;
+	
+	printf("%.3lf km/l\n", km);
+
+
+}
