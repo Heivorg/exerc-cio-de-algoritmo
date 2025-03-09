@@ -1,0 +1,15 @@
+calculo simples 
+#include <stdio.h>
+
+int main() {
+    int cpeça1, cpeça2, npeça1, npeça2;
+    float valor1, valor2, pagar;
+
+    scanf("%d %d %f", &cpeça1, &npeça1, &valor1);
+    scanf("%d %d %f", &cpeça2, &npeça2, &valor2);
+
+    pagar = (npeça1 * valor1) + (npeça2 * valor2);
+
+    printf("VALOR A PAGAR: R$ %.2f\n", pagar);
+
+}
