@@ -12,6 +12,6 @@ int main(){
     
     area = n * (raio*raio);
     
-    printf("A= %.4f", area);
+    printf("A= %.4f\n", area);
     
 }
